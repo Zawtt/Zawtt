@@ -6,7 +6,7 @@
 
 <div align="center">  
   <img width="49%" height="195px" src="https://github-readme-stats.vercel.app/api?username=Zawtt&show_icons=true&count_private=true&hide_border=true&title_color=66CDAA&icon_color=00bfbf&text_color=c9d1d9&bg_color=0d1117" alt="Zawtt GitHub Stats"/> 
-  <img width="41%" height="195px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Zawtt&layout=compact&hide_border=true&title_color=00bfbf&text_color=00bfbf&bg_color=0d1117" alt="Zawtt Top Languages"/>
+  <img width="41%" height="195px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Zawtt&layout=compact&title_color=00bfbf&text_color=00bfbf&bg_color=0d1117" alt="Zawtt Top Languages"/>
 </div>
 
 ---
