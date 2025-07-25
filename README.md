@@ -19,47 +19,22 @@
   <img src="https://github-profile-trophy.vercel.app/?username=Zawtt&theme=dracula&row=2&no-bg=true&column=3&margin-w=15&margin-h=15" />
 </p>
 
----
 
-## 🚀 Main Skills
+## Skills
 
-![Node.JS](https://img.shields.io/badge/Node.js-0D1117?style=for-the-badge&logo=node.js&labelColor=0D1117&color=339933)
-![React.js](https://img.shields.io/badge/React.js-0D1117?style=for-the-badge&logo=react&labelColor=0D1117&color=61DAFB)
-![JavaScript](https://img.shields.io/badge/JavaScript-0D1117?style=for-the-badge&logo=javascript&labelColor=0D1117&color=F7DF1E)
-![C#](https://img.shields.io/badge/C%23-0D1117?style=for-the-badge&logo=csharp&labelColor=0D1117&color=68217A)
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=git,kubernetes,docker,c,cs,cpp,vim,activitypub,discordjs,css,django,react,electron,figma,git,githubactions,html,htmx,java,js,postgres,py,php,kotlin,lua,mysql,nodejs,ts" />
+  </a>
+</p>
 
----
+## Tools I Use
 
-## 🛠️ Tools I Use
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=ae,arch,au,aws,debian,discord,bots,elixir,github,ai,kali,linux,mint,obsidian,ps,phpstorm,powershell,pr,robloxstudio,ubuntu,visualstudio,vscode,vscodium,ruby" />
+  </a>
+</p>
 
-![Visual Studio](https://img.shields.io/badge/Visual%20Studio-0D1117?style=for-the-badge&logo=visual-studio&logoColor=C8A2C8)
-![VS Code](https://img.shields.io/badge/VS%20Code-0D1117?style=for-the-badge&logo=visual-studio-code&logoColor=007ACC)
-![Atom](https://img.shields.io/badge/Atom-0D1117?style=for-the-badge&logo=atom&logoColor=90ee90)
-![Git](https://img.shields.io/badge/Git-0D1117?style=for-the-badge&logo=git&logoColor=F05032)
-![GitHub](https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github)
-![Windows](https://img.shields.io/badge/Windows-0D1117?style=for-the-badge&logo=windows&logoColor=00adef)
-![Office](https://img.shields.io/badge/Microsoft_Office-0D1117?style=for-the-badge&logo=microsoft-office&logoColor=ea3c00)
 
----
-
-## 📚 Other Knowledge
-
-![HTML](https://img.shields.io/badge/HTML5-0D1117?style=for-the-badge&logo=html5&logoColor=E34F26)
-![CSS](https://img.shields.io/badge/CSS3-0D1117?style=for-the-badge&logo=css3&logoColor=1572B6)
-![Python](https://img.shields.io/badge/Python-0D1117?style=for-the-badge&logo=python&logoColor=3776AB)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-0D1117?style=for-the-badge&logo=bootstrap&logoColor=7952B3)
-![MySQL](https://img.shields.io/badge/MySQL-0D1117?style=for-the-badge&logo=mysql&logoColor=4479A1)
-![Figma](https://img.shields.io/badge/Figma-0D1117?style=for-the-badge&logo=figma&logoColor=F24E1E)
-![Handlebars](https://img.shields.io/badge/Handlebars-0D1117?style=for-the-badge&logo=handlebarsdotjs&logoColor=orange)
-
----
-
-## 📖 Currently Learning
-
-![TypeScript](https://img.shields.io/badge/TypeScript-0D1117?style=for-the-badge&logo=typescript&logoColor=3178C6)
-![Docker](https://img.shields.io/badge/Docker-0D1117?style=for-the-badge&logo=docker&logoColor=2496ED)
-![React Native](https://img.shields.io/badge/React_Native-0D1117?style=for-the-badge&logo=react&logoColor=61DAFB)
-
----
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=00bfbf&height=120&section=footer"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=000000&height=120&section=footer"/>
