@@ -1,7 +1,7 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=120&section=header"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=customColorList=0,2,2,5,30&height=120&section=header"/>
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=32&duration=4000&pause=1000&color=66CDAA&center=true&vCenter=true&width=1000&lines=Hello%2C+I'm+Euclides+Rodrigues+De+Oliveira;Full+Stack+Developer+%E2%9A%A1;Welcome+to+my+digital+realm+%F0%9F%9A%80" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=32&duration=4000&pause=1000&color=66CDAA&center=true&vCenter=true&width=1000&lines=Hello%2C+I'm+Euclides+Rodrigues+De+Oliveira;Full+Stack+Developer;Welcome+to+my+digital+realm" />
 </div>
 
 <p align="center">
@@ -31,7 +31,7 @@
 
 <div align="center">
 
-## 💻 **Tech Arsenal**
+##  **Tech Arsenal**
 
 ### **Core Languages**
 <img src="https://skillicons.dev/icons?i=js,ts,python,java,cpp,cs,php,kotlin,lua,ruby" height="50"/>
@@ -68,20 +68,20 @@ const developer = {
     },
     
     currentFocus: [
-        "🎮 RPG Character Sheet Development",
-        "⚛️ Advanced React Patterns", 
-        "🚀 System Architecture",
-        "🔧 Open Source Contributions"
+        " RPG Character Sheet Development",
+        " Advanced React Patterns", 
+        " System Architecture",
+        " Open Source Contributions"
     ],
     
     dailyRoutine: () => {
-        return ["☕ Coffee", "💻 Code", "🐛 Debug", "🔄 Repeat"];
+        return [" Coffee", " Code", " Debug", " Repeat"];
     },
     
-    motto: "Turning ideas into interactive experiences! ✨"
+    motto: "Turning ideas into interactive experiences! "
 };
 
-console.log("Welcome to my profile! 🚀");
+console.log("Welcome to my profile! ");
 ```
 
 </div>
@@ -90,29 +90,16 @@ console.log("Welcome to my profile! 🚀");
 
 <div align="center">
 
-### 🎯 **GitHub Overview**
+###  **GitHub Overview**
 
-| 📊 **Metric** | 📈 **Status** |
+|  **Metric** |  **Status** |
 |:---:|:---:|
-| 🔥 **Active** | ![Status](https://img.shields.io/badge/Always-Coding-66cdaa?style=flat-square) |
-| ⭐ **Focus** | ![Focus](https://img.shields.io/badge/Full_Stack-Development-00bfbf?style=flat-square) |
-| 🌱 **Learning** | ![Learning](https://img.shields.io/badge/Advanced-React_Patterns-66cdaa?style=flat-square) |
-| 🎮 **Building** | ![Building](https://img.shields.io/badge/RPG-Character_Sheet-00bfbf?style=flat-square) |
+|  **Active** | ![Status](https://img.shields.io/badge/Always-Coding-66cdaa?style=flat-square) |
+|  **Focus** | ![Focus](https://img.shields.io/badge/Full_Stack-Development-00bfbf?style=flat-square) |
+|  **Learning** | ![Learning](https://img.shields.io/badge/Advanced-React_Patterns-66cdaa?style=flat-square) |
+|  **Building** | ![Building](https://img.shields.io/badge/RPG-Character_Sheet-00bfbf?style=flat-square) |
 
 </div>
-
----
-
-<div align="center">
-  
-[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://your-portfolio.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/your-profile)
-[![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/your-server)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Zawtt)
-
-</div>
-
----
 
 <div align="center">
 
@@ -123,15 +110,7 @@ console.log("Welcome to my profile! 🚀");
 <img src="https://github.com/Platane/snk/raw/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
 
 </div>
-
----
-
 <div align="center">
-
-*"The best way to predict the future is to create it!"*
-
-**Thanks for visiting! Let's build something amazing together** 🌟
-
 </div>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=120&section=footer"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=customColorList=0,2,2,5,30&height=120&section=footer"/>
