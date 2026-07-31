@@ -56,7 +56,7 @@
 
 ```javascript
 const developer = {
-    name: "Euclides Rodrigues De Oliveira",
+    name: "ZZZZZZZZZZZZZZZZZZZZZZZZZZZZ",
     username: "Zawtt",
     location: "Brazil 🇧🇷",
     role: "Full Stack Developer",
