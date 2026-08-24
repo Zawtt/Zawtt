@@ -1,60 +1,30 @@
-<!-- ============================================================
-     ZAWTT // NERV INTERNAL DEVELOPMENT TERMINAL
-     ACCESS LEVEL: RESTRICTED
-============================================================= -->
-
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=38&color=8B0000"/>
+# ZAWTT
 
-# `Z A W T T`
+### `software • games • reverse engineering`
 
-### `NERV // INTERNAL DEVELOPMENT TERMINAL`
-
-<code>CONNECTION ESTABLISHED</code>
-&nbsp;&nbsp;
-<code>ACCESS LEVEL 03</code>
-&nbsp;&nbsp;
-<code>STATUS: ONLINE</code>
+<img src="https://i.pinimg.com/originals/e0/e7/58/e0e75837fb5aa857f6aec122775d973e.gif" width="100%" />
 
 <br><br>
 
+<img src="https://komarev.com/ghpvc/?username=Zawtt&style=flat-square&color=cc0000&label=views" />
+<img src="https://img.shields.io/github/followers/Zawtt?style=flat-square&color=cc0000&labelColor=0d1117" />
+
 </div>
 
-<table>
-<tr>
+---
 
-<td width="55%" valign="middle">
-
-# `SUBJECT // ZAWTT`
+## about me
 
 ```text
-NERV PERSONNEL RECORD
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+name:        Zawtt
+location:    Brazil
+status:      online
+focus:       software development / game development / open source
 
-ID              ZAWTT
-LOCATION        BRAZIL
-STATUS          ACTIVE
-UNIT            DEVELOPMENT
-CLEARANCE       ███████████░  91%
+directive:
+build things i actually want to use.
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-CURRENT ASSIGNMENTS
-
-01 // SOFTWARE DEVELOPMENT
-02 // GAME DEVELOPMENT
-03 // REVERSE ENGINEERING
-04 // OPEN SOURCE
-05 // GAME TOOLING
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-PRIMARY DIRECTIVE
-
-BUILD THINGS I ACTUALLY WANT TO USE.
-
-SECONDARY DIRECTIVE
-
-IF I DON'T UNDERSTAND IT,
-I'LL TAKE IT APART.
+philosophy:
+if i don't understand it, i'll take it apart.
