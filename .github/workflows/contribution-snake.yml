@@ -1,0 +1,36 @@
+name: Generate contribution animation
+
+on:
+  schedule:
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-contribution-animation
+  cancel-in-progress: true
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Generate light and dark contribution animations
+        uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg?color_snake=#91A7FF&color_dots=#EBEDF0,#DCE1FF,#B7C3FF,#91A7FF,#6D83DA
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#86D67C
+
+      - name: Publish animations to the output branch
+        uses: crazy-max/ghaction-github-pages@df5cc2bfa78282ded844b354faee141f06b41865
+        with:
+          target_branch: output
+          build_dir: dist
+          commit_message: "chore: refresh contribution animation"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
