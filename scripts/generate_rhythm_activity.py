@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import base64
 import json
 import os
 from pathlib import Path
@@ -109,7 +110,14 @@ def graph_geometry(values: list[int]) -> tuple[str, list[tuple[float, float, boo
     return path, points
 
 
-def render(stats: dict) -> str:
+def gif_data_uri(path: Path) -> str:
+    payload = path.read_bytes()
+    if not (payload.startswith(b"GIF87a") or payload.startswith(b"GIF89a")):
+        raise RuntimeError(f"Rhythm background is not a GIF: {path}")
+    return "data:image/gif;base64," + base64.b64encode(payload).decode("ascii")
+
+
+def render(stats: dict, background_gif: str) -> str:
     path, points = graph_geometry(stats["weekly"])
     rank_color = {"S": "#79df70", "A": "#8fb0ff", "B": "#d4b96f", "C": "#db8b68", "D": "#d46b78"}[stats["rank"]]
     circles = []
@@ -137,6 +145,19 @@ def render(stats: dict) -> str:
       <stop offset="0.68" stop-color="#81d878"/>
       <stop offset="1" stop-color="#52658f"/>
     </linearGradient>
+    <linearGradient id="scrim" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#090c19" stop-opacity="0.98"/>
+      <stop offset="0.48" stop-color="#090c19" stop-opacity="0.94"/>
+      <stop offset="0.72" stop-color="#090c19" stop-opacity="0.58"/>
+      <stop offset="1" stop-color="#090c19" stop-opacity="0.32"/>
+    </linearGradient>
+    <linearGradient id="bottomScrim" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0.48" stop-color="#090c19" stop-opacity="0"/>
+      <stop offset="1" stop-color="#090c19" stop-opacity="0.62"/>
+    </linearGradient>
+    <clipPath id="panelClip">
+      <rect x="10" y="10" width="1100" height="400" rx="18"/>
+    </clipPath>
     <filter id="pointGlow" x="-120%" y="-120%" width="340%" height="340%">
       <feGaussianBlur stdDeviation="3" result="blur"/>
       <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
@@ -156,6 +177,12 @@ def render(stats: dict) -> str:
   </style>
 
   <rect x="10" y="10" width="1100" height="400" rx="18" fill="url(#panel)"/>
+  <g clip-path="url(#panelClip)">
+    <image href="{background_gif}" x="666" y="10" width="444" height="400" preserveAspectRatio="xMidYMid slice"/>
+    <rect x="10" y="10" width="1100" height="400" fill="url(#scrim)"/>
+    <rect x="10" y="10" width="1100" height="400" fill="url(#bottomScrim)"/>
+  </g>
+  <rect x="10.75" y="10.75" width="1098.5" height="398.5" rx="17.25" fill="none" stroke="#303851" stroke-opacity="0.72" stroke-width="1.5"/>
 
   <text x="48" y="54" fill="#7782aa" font-family="Segoe UI, Arial, sans-serif" font-size="14" letter-spacing="1">now playing</text>
   <text x="48" y="88" fill="#e8ebff" font-family="Segoe UI, Arial, sans-serif" font-size="25" font-weight="700">contributions.rhy</text>
@@ -169,22 +196,22 @@ def render(stats: dict) -> str:
   <path d="M1060 134v126" stroke="#d6d9ed" stroke-width="2" stroke-opacity="0.72"/>
 
   <g class="card">
-    <rect x="48" y="292" width="246" height="82" rx="10" fill="#1a1e36"/>
+    <rect x="48" y="292" width="246" height="82" rx="10" fill="#14192e" fill-opacity="0.91" stroke="#414967" stroke-opacity="0.34"/>
     <text x="171" y="321" text-anchor="middle" fill="#7d87ad" font-family="Segoe UI, Arial, sans-serif" font-size="13">max combo</text>
     <text x="171" y="353" text-anchor="middle" fill="#f0f2ff" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="700">x{stats['max_combo']}</text>
   </g>
   <g class="card card-b">
-    <rect x="306" y="292" width="246" height="82" rx="10" fill="#1a1e36"/>
+    <rect x="306" y="292" width="246" height="82" rx="10" fill="#14192e" fill-opacity="0.91" stroke="#414967" stroke-opacity="0.34"/>
     <text x="429" y="321" text-anchor="middle" fill="#7d87ad" font-family="Segoe UI, Arial, sans-serif" font-size="13">accuracy</text>
     <text x="429" y="353" text-anchor="middle" fill="#f0f2ff" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="700">{stats['accuracy']}%</text>
   </g>
   <g class="card card-c">
-    <rect x="564" y="292" width="246" height="82" rx="10" fill="#1a1e36"/>
+    <rect x="564" y="292" width="246" height="82" rx="10" fill="#14192e" fill-opacity="0.91" stroke="#414967" stroke-opacity="0.34"/>
     <text x="687" y="321" text-anchor="middle" fill="#7d87ad" font-family="Segoe UI, Arial, sans-serif" font-size="13">notes hit</text>
     <text x="687" y="353" text-anchor="middle" fill="#f0f2ff" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="700">{stats['notes']}</text>
   </g>
   <g class="card card-d">
-    <rect x="822" y="292" width="246" height="82" rx="10" fill="#1a1e36"/>
+    <rect x="822" y="292" width="246" height="82" rx="10" fill="#14192e" fill-opacity="0.91" stroke="#414967" stroke-opacity="0.34"/>
     <text x="945" y="321" text-anchor="middle" fill="#7d87ad" font-family="Segoe UI, Arial, sans-serif" font-size="13">misses</text>
     <text x="945" y="353" text-anchor="middle" fill="#79df70" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="700">{stats['misses']}</text>
   </g>
@@ -203,9 +230,12 @@ def main() -> None:
 
     login = os.environ.get("GITHUB_USER", "Zawtt")
     output = Path(os.environ.get("RHYTHM_OUTPUT", "dist/contributions-rhythm.svg"))
+    background = Path(os.environ.get("RHYTHM_BACKGROUND", "assets/nokotan-anime.gif"))
+    if not background.is_file():
+        raise RuntimeError(f"Rhythm background GIF not found: {background}")
     stats = activity_stats(login, token)
     output.parent.mkdir(parents=True, exist_ok=True)
-    output.write_text(render(stats), encoding="utf-8")
+    output.write_text(render(stats, gif_data_uri(background)), encoding="utf-8")
     print(f"Generated {output}: {stats}")
 
 
