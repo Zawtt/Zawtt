@@ -4,8 +4,7 @@
   # hi
   <br>
 
-  I make small tools, game experiments, and oddly specific projects.<br>
-  Mostly because figuring out how things work is fun.
+ i luv pretending i know what im doing
 </div>
 
 
