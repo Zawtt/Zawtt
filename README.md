@@ -1,7 +1,7 @@
 <div align="center">
   <img src="assets/profile-anime.jpg" width="180" alt="Anime profile picture" />
 
-  # hi, i'm zawtt
+  # hi, i'm zawt
 
   `hobby dev` · `games` · `reverse engineering`
 
