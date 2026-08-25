@@ -25,10 +25,10 @@
   <img src="https://skillicons.dev/icons?i=cs,dotnet,python,js,lua,godot,unity,git,github,vscode&theme=dark" alt="C#, .NET, Python, JavaScript, Lua, Godot, Unity, Git, GitHub, and VS Code" />
 </div>
 
-## boss fight
+## activity
 
 <div align="center">
-  <img width="100%" src="https://raw.githubusercontent.com/Zawtt/Zawtt/output/boss-hp-bar.svg" alt="Animated boss HP bar where open issues and pull requests are The Backlog's remaining health" />
+  <img width="100%" src="https://raw.githubusercontent.com/Zawtt/Zawtt/output/contributions-rhythm.svg" alt="Animated rhythm-game activity panel showing GitHub contributions, rank, combo, accuracy, notes hit, and misses" />
 </div>
 
 ---

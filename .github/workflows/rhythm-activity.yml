@@ -1,4 +1,4 @@
-name: Generate backlog boss bar
+name: Generate rhythm activity panel
 
 on:
   schedule:
@@ -9,7 +9,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: profile-backlog-boss
+  group: profile-rhythm-activity
   cancel-in-progress: true
 
 jobs:
@@ -23,13 +23,13 @@ jobs:
         with:
           persist-credentials: false
 
-      - name: Generate the animated boss HP bar
+      - name: Generate the animated activity panel
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_USER: ${{ github.repository_owner }}
-        run: python3 scripts/generate_boss_bar.py
+        run: python3 scripts/generate_rhythm_activity.py
 
-      - name: Publish the boss bar to the output branch
+      - name: Publish the activity panel to the output branch
         shell: bash
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -39,6 +39,6 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add .
-          git commit --allow-empty -m "chore: refresh backlog boss bar"
+          git commit --allow-empty -m "chore: refresh rhythm activity panel"
           git remote add origin "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
           git push --force origin output
