@@ -1,169 +1,64 @@
 <div align="center">
-
 <img src="https://i.pinimg.com/originals/39/46/60/394660f927d65eff2baf0f1579c699d4.gif" width="100%" />
 
 # ZAWTT
-
-### `code • games • reverse engineering`
+### `hobby dev • games • breaking things for fun`
 
 <img src="https://komarev.com/ghpvc/?username=Zawtt&style=flat-square&color=E53935&label=profile+views" />
 <img src="https://img.shields.io/github/followers/Zawtt?style=flat-square&color=E53935&labelColor=111111&label=followers" />
-<img src="https://img.shields.io/badge/status-building-E53935?style=flat-square&labelColor=111111" />
+<img src="https://img.shields.io/badge/status-messing%20around-E53935?style=flat-square&labelColor=111111" />
+<img src="https://img.shields.io/badge/mood-caffeinated-E53935?style=flat-square&labelColor=111111" />
 
 </div>
 
 ---
 
-## about
+## 👾 about me
 
-I'm into **software development**, **game-related projects**, **tooling**, and **figuring out how things work under the hood**.
+Not a professional dev, not trying to be one — this is just my playground.
+I mess with **games**, **tools**, and **weird little scripts** for the fun of taking stuff apart and seeing what makes it tick.
 
-Most of the time I end up doing one of these:
-
-- building something useful
-- debugging something cursed
-- learning a system by breaking it
-- turning a small idea into a bigger project than expected
+Usually I'm doing one of these:
+- 🛠️ building something nobody asked for
+- 🐛 debugging something cursed
+- 🔍 learning a system by breaking it
+- 🚀 turning a tiny idea into a way bigger project than planned
 
 > **If I don't understand it, I'll take it apart.**
 
 ---
 
-## languages I use
+## ⚔️ my loadout
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### C#
-Used for:
-- desktop / tooling ideas
-- game-side logic
-- Unity / Godot-related work
-- projects where I want structure and control
-
-Why I like it:
-- clean syntax
-- powerful for larger projects
-- great balance between readability and capability
-
-</td>
-<td width="50%" valign="top">
-
-### JavaScript
-Used for:
-- web interfaces
-- interactive tools
-- quick experiments
-- front-end logic
-
-Why I like it:
-- fast to prototype with
-- flexible
-- useful basically everywhere
-
-</td>
-</tr>
-
-<tr>
-<td width="50%" valign="top">
-
-### Python
-Used for:
-- automation
-- scripts
-- data handling
-- quick utility tools
-
-Why I like it:
-- simple to write
-- fast for testing ideas
-- perfect when I want results quickly
-
-</td>
-<td width="50%" valign="top">
-
-### Lua / Luau
-Used for:
-- game scripting
-- Roblox-related work
-- lightweight systems
-- gameplay logic experiments
-
-Why I like it:
-- easy to read
-- fun to script with
-- really good for game logic and iteration
-
-</td>
-</tr>
-</table>
-
----
-
-## tools & stack
+```
+C#          ████████░░  Lv.8   — Unity / Godot, structure & control
+JavaScript  ███████░░░  Lv.7   — web stuff, fast prototypes
+Python      ██████░░░░  Lv.6   — scripts, automation, quick hacks
+Lua/Luau    ███████░░░  Lv.7   — Roblox & game scripting
+```
 
 <div align="center">
-
 <img src="https://skillicons.dev/icons?i=cs,js,python,lua,godot,unity,robloxstudio,git,github,vscode" />
-
-<br><br>
-
-`C#` • `JavaScript` • `Python` • `Lua / Luau`  
-`Godot` • `Unity` • `Roblox Studio` • `Git` • `GitHub` • `VS Code`
-
 </div>
 
 ---
 
-## what I'm into right now
+## 🎮 current side quests
 
-- game development
-- open-source contributions
-- reverse engineering / game tooling
-- building useful side projects
-- learning more about engines, parsers and systems
-
----
-
-## featured project
-
-### Rhythia — RHM support / backport
-
-One of the coolest things I worked on recently started with a simple problem:
-
-> **the stable client couldn't open `.rhm` maps**
-
-So I ended up:
-- cloning the repository
-- inspecting the parser
-- modifying the code
-- testing builds
-- getting a custom working version running
-- and later making an upstream contribution
-
-That project taught me a lot about:
-- Git / GitHub workflow
-- builds and releases
-- C#
-- debugging real codebases
-- contributing to open source
+- game development, just for the fun of it
+- poking around open-source projects
+- reverse engineering / making tools that probably shouldn't exist
+- turning random ideas into side projects
+- learning how engines, parsers and systems tick under the hood
 
 ---
 
-## github stats
+## 📊 the receipts
 
 <div align="center">
-
 <img height="180" src="https://github-readme-stats.vercel.app/api?username=Zawtt&show_icons=true&hide_border=true&bg_color=0d1117&title_color=E53935&icon_color=E53935&text_color=d8d8d8&ring_color=E53935"/>
-
 <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Zawtt&layout=compact&hide_border=true&bg_color=0d1117&title_color=E53935&text_color=d8d8d8"/>
-
 </div>
-
----
-
-## activity
 
 <div align="center">
 
@@ -175,10 +70,12 @@ That project taught me a lot about:
 
 <div align="center">
 
-## current state
-
 ```text
-system status      : online
-current focus      : code / games / tools
+system status      : online, mostly by accident
+current focus      : whatever breaks next
 preferred workflow : build → test → break → fix → improve
 debug mode         : always active
+motivation         : it's fun, that's it
+```
+
+</div>
