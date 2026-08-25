@@ -66,14 +66,4 @@ Usually I'm doing one of these:
 </div>
 
 ---
-
-<div align="center">
-
-```text
-system status      : online, mostly by accident
-current focus      : whatever breaks next
-preferred workflow : build → test → break → fix → improve
-debug mode         : always active
-```
-
 </div>
