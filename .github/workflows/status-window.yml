@@ -1,4 +1,4 @@
-name: Generate contribution animation
+name: Generate profile status window
 
 on:
   schedule:
@@ -9,7 +9,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: profile-contribution-animation
+  group: profile-status-window
   cancel-in-progress: true
 
 jobs:
@@ -18,15 +18,18 @@ jobs:
     timeout-minutes: 5
 
     steps:
-      - name: Generate light and dark contribution animations
-        uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b
+      - name: Check out the profile source
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
         with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-contribution-grid-snake.svg?color_snake=#91A7FF&color_dots=#EBEDF0,#DCE1FF,#B7C3FF,#91A7FF,#6D83DA
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#86D67C
+          persist-credentials: false
 
-      - name: Publish animations to the output branch
+      - name: Generate the animated status window
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USER: ${{ github.repository_owner }}
+        run: python3 scripts/generate_status_window.py
+
+      - name: Publish the status window to the output branch
         shell: bash
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -36,6 +39,6 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add .
-          git commit --allow-empty -m "chore: refresh contribution animation"
+          git commit --allow-empty -m "chore: refresh profile status window"
           git remote add origin "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
           git push --force origin output

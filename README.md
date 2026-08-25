@@ -25,18 +25,11 @@
   <img src="https://skillicons.dev/icons?i=cs,dotnet,python,js,lua,godot,unity,git,github,vscode&theme=dark" alt="C#, .NET, Python, JavaScript, Lua, Godot, Unity, Git, GitHub, and VS Code" />
 </div>
 
-## activity
+## status window
 
 <div align="center">
-  <img height="170" src="https://github-stats-extended.vercel.app/api?username=Zawtt&show_icons=true&hide_border=true&bg_color=111423&title_color=91A7FF&icon_color=86D67C&text_color=DCE1FF&ring_color=91A7FF" alt="Zawtt's GitHub statistics" />
-  <img height="170" src="https://github-stats-extended.vercel.app/api/top-langs/?username=Zawtt&layout=compact&hide_border=true&bg_color=111423&title_color=91A7FF&text_color=DCE1FF" alt="Zawtt's most-used languages" />
+  <img width="100%" src="https://raw.githubusercontent.com/Zawtt/Zawtt/output/status-window.svg" alt="Animated isekai-style GitHub status window: STR is commits, INT is languages, and LUK is stars" />
 </div>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Zawtt/Zawtt/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Zawtt/Zawtt/output/github-contribution-grid-snake.svg" />
-  <img width="100%" alt="Animated GitHub contribution graph" src="https://raw.githubusercontent.com/Zawtt/Zawtt/output/github-contribution-grid-snake.svg" />
-</picture>
 
 ---
 
