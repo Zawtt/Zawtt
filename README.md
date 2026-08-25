@@ -28,7 +28,7 @@
 ## activity
 
 <div align="center">
-  <img width="100%" src="https://raw.githubusercontent.com/Zawtt/Zawtt/output/contributions-rhythm.svg" alt="Animated rhythm-game activity panel showing GitHub contributions, rank, combo, accuracy, notes hit, and misses" />
+  <img width="100%" src="https://raw.githubusercontent.com/Zawtt/Zawtt/output/contributions-rhythm.svg?v=nokotan-1" alt="Animated Nokotan rhythm-game activity panel showing GitHub contributions, rank, combo, accuracy, notes hit, and misses" />
 </div>
 
 ---
