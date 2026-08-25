@@ -2,22 +2,12 @@
   <img src="assets/profile-anime.jpg" width="180" alt="Anime profile picture" />
 
   # hi
-
-  `hobby dev` · `games` · `reverse engineering`
-
   <br>
 
   I make small tools, game experiments, and oddly specific projects.<br>
   Mostly because figuring out how things work is fun.
 </div>
 
-## about me
-
-I like taking systems apart, understanding the interesting bits, and building
-something new with what I learned. Most of my projects involve games, desktop
-tools, automation, or reverse-engineering experiments.
-
-Currently playing with **C#**, **Python**, **JavaScript**, and **Lua/Luau**.
 
 ## project archive
 
