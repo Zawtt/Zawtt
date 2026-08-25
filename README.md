@@ -25,10 +25,10 @@
   <img src="https://skillicons.dev/icons?i=cs,dotnet,python,js,lua,godot,unity,git,github,vscode&theme=dark" alt="C#, .NET, Python, JavaScript, Lua, Godot, Unity, Git, GitHub, and VS Code" />
 </div>
 
-## status window
+## boss fight
 
 <div align="center">
-  <img width="100%" src="https://raw.githubusercontent.com/Zawtt/Zawtt/output/status-window.svg" alt="Animated isekai-style GitHub status window: STR is commits, INT is languages, and LUK is stars" />
+  <img width="100%" src="https://raw.githubusercontent.com/Zawtt/Zawtt/output/boss-hp-bar.svg" alt="Animated boss HP bar where open issues and pull requests are The Backlog's remaining health" />
 </div>
 
 ---
