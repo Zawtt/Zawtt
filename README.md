@@ -10,21 +10,9 @@
 
 </div>
 
----
-
-## about
 
 Not a professional dev, not trying to be one — this is just my playground. I mess with **games**, **tools**, and **weird little scripts** for the fun of taking stuff apart and seeing what makes it tick.
 
-Usually I'm doing one of these:
-- building something nobody asked for
-- debugging something cursed
-- learning a system by breaking it
-- turning a tiny idea into a way bigger project than planned
-
-> If I don't understand it, I'll take it apart.
-
----
 
 ## languages I use
 
