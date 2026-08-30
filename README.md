@@ -2,7 +2,6 @@
   <img src="assets/profile-anime.jpg" width="180" alt="Anime profile picture" />
 
   # hiii
-  <br>
 i luv pretending i know what im doing
 </div>
 <div align="center">
