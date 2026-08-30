@@ -6,8 +6,6 @@
 
  i luv pretending i know what im doing
 </div>
-## things i use
-
 <div align="center">
   <img src="https://skillicons.dev/icons?i=cs,dotnet,python,js,lua,godot,unity,git,github,vscode&theme=dark" alt="C#, .NET, Python, JavaScript, Lua, Godot, Unity, Git, GitHub, and VS Code" />
 </div>
