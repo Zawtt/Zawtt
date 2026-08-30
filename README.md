@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://i.pinimg.com/736x/c2/36/a3/c236a308a3c04bdfb7e55b029ad8d229.jpg" width="180" alt="Anime profile picture" />
+  <img src="https://i.pinimg.com/736x/c2/36/a3/c236a308a3c04bdfb7e55b029ad8d229.jpg" width="690" alt="Anime profile picture" />
 
   # hiii
 i luv pretending i know what im doing
